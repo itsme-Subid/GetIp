@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "builds": [{ "src": "/dist/index.ts", "use": "@vercel/node-ts" }],
+  "routes": [{ "src": "/api/getip", "dest": "/dist/index.ts" }]
+}
