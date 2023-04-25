@@ -5,7 +5,7 @@ import cors from "cors";
 const app = express();
 
 const corsOptions = {
-  origin: ["http://localhost:5173", "https://devsubid.vercel.app"],
+  origin: "*",
 };
 
 app.use(cors(corsOptions));
